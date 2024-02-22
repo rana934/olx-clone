@@ -21,6 +21,8 @@ padding-top: 25px;
 /* align-items: center; */
 background-color: #f7f8f8;
 text-decoration: none;
+/* position: absolute; */
+position: fixed;
 
 }
 
@@ -85,7 +87,7 @@ background-repeat: no-repeat;
 
 .second-naV {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: -5px;
     display: flex;
     /* justify-content: center; */
@@ -341,14 +343,32 @@ height: 50px; */
 }
 
 .slider-top {
-    margin-top: 20px;
+    margin-top: 35px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    margin-left: 30px;
+    height: 180px;
 }
 
-.zond-advertisement {
+.zong-advertisement {
     width: 728px;
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin-left: 50px; */
+    margin-top: 50px;
+
+}
+
+.zong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 35px;
+
 }
