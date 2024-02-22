@@ -29,7 +29,7 @@ text-decoration: none;
     display: flex;
     width: 400px;
     height: 100%;
-    margin-left:150px ;
+    margin-left:90px ;
     align-items: center;
  /* margin-top: 5px; */
 /* margin-bottom: 10px; */ 
@@ -46,11 +46,11 @@ a {
 
 .motor {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 
 .olx-logo {
-    width: 47px;
+    width: 37px;
     height: 27px;
     display: flex;
     justify-content: space-around;
@@ -85,14 +85,17 @@ background-repeat: no-repeat;
 
 .second-naV {
     display: inline-block;
-    margin-left: 130px;
-    margin-top: 25px;
+    margin-left: 70px;
+    margin-top: -5px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .search-sec {
     display: inline-block;
-    margin-left: 25px;
-    /* display: flex;
+    margin-left: 17px;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
      */
@@ -117,67 +120,70 @@ align-items: center;
 }
 
 .magnifine_glass {
-    /* padding: 5px; */
+    /* padding: 7px; */
     font-size: 1.1rem;
 display: inline-block;
 display: flex;
 /* margin-right: auto; */
-margin-left: -315px
+margin-left: -290px
 
 }
 
-input {
-    padding: 15px;
-    width: 325px;
+.in {
+    padding: 8px;
+    width: 300px;
     border-radius: 4px;
     border: 3px solid #000;
-    /* word-spacing: 10px */
+    /* word-spacing: 10px; */
     display: inline-block;
 
 }
 
 .chevron-dowN {
-    margin-left: 265px;
+    margin-left: 240px;
 }
 
 :placeholder-shown {
-    padding-left: 40px;
+    padding-left: 35px;
 
 }
 
 .vv {
     display: inline-block;
-    margin-right:20px ;
-}
-
-.zz {
-    display: inline-block;
-}
-
-.sec-searcH {
-    /* border-top: 3px solid #000;*/
-    /* border-right: 3px solid #000; */
-    /* border-bottom: 3px solid #000; */
-    /* border-left: 0px solid #000; */
-    /* padding: 17px;  */
-    /* width: 45px; */
-    /* background-color: #002734; */
-    /* color: #ffff; */
-    /* height: 60px; */
+    margin-right: 25px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: inline-block;
-    /* border-top-right-radius: 5px; */
-    /* border-bottom-right-radius: 5px; */
-    /* border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; */
-    /* font-size: 0.85rem; */
+}
+
+/* .zz { */
+    /* display: inline-block; */
+    /* display: flex; */
+}
+
+ /* .sec-searcH { */
+    /* border-top: 3px solid #000; */
+    /* border-right: 3px solid #000; */
+    /* border-bottom: 3px solid #000; */
+    /* border-left: 0px solid #000; */
+    /* padding: 0px;  */
+    /*width: 45px;
+    background-color: #002734;
+    color: #ffff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      display: inline-block;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    font-size: 0.85rem; */
 /* margin-bottom: 1000px; */
 
 }
-
-.search-Icon {
+ /* .search-Icon {
     width: 45px;
     background-color: #002734;
     display: inline-block;
@@ -185,22 +191,164 @@ input {
     justify-content: center;
     align-items: center;
 height: 50px;
-}
+}   */
 
 
 /* .search-Icon {
     width: 45px;
+    display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 1.2rem; */
+    /* background-color: #febd68; */
+    /* border-top-right-radius:4px ; */
+    /* border-bottom-right-radius:4px ; */
+    /* color: #0f1111; */
+/* display: inline-block;
+height: 50px; */
+
+/* margin-bottom: 100px; */
+}
+
+.second-inpuT {
+    display: flex;
+    display: inline-block;
+
+}
+
+.search-Icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    background-color: #febd68;
-    border-top-right-radius:4px ;
-    border-bottom-right-radius:4px ;
-    color: #0f1111;
-display: inline-block;
-height: 50px;
+    color: #ffff;
+    background-color: #002734;
+    padding: 14.7px;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;  
+}
 
-margin-bottom: 100px;
-} */
+.findcars {
+    padding: 8px;
+    width: 255px;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 3px solid #000;
+    /* word-spacing: 10px; */
+    display: inline-block;
 
+}
+
+.last-itemS {
+    width: 350px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+ margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+
+.fa-comment {
+    margin-top: 15px;
+
+}
+
+.fa-bell {
+    margin-top: 15px;
+
+}
+
+.boy-div {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.boy-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+
+}
+
+.boy-chewron {
+    margin-bottom: 17px;
+    font-size: 0.9rem;
+}
+
+.bt-first {
+    width: 93px;
+    height: 43px;
+    /* border: 4px; */
+    /* font-size: 0.1rem; */
+    border-radius: 50px !important;
+    border-top: 6px solid #23e5db;
+    border-left: 6px solid rgb(255, 255, 0);
+    border-bottom: 6px solid #3a77ff;
+    border-right: 6px solid rgb(255, 255, 0);
+    /* margin-bottom: px; */
+
+}
+
+.bt-sell {
+    /* margin: 20px; */
+}
+
+.sell {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.plus {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.third-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffff;   
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 4px 0px -1px rgba(228,221,221,0.59);
+    -webkit-box-shadow: 0px 4px 0px -1px rgba(228,221,221,0.59);
+    -moz-box-shadow: 0px 4px 0px -1px rgba(228,221,221,0.59);
+}
+
+.nav-uli {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 800px;
+    margin-left: 50px;
+    /* background-color: #ffff; */
+    margin-right: 400px;
+    font-size: 0.9rem;
+    margin-top:10px;
+
+}
+
+.slider-top {
+    margin-top: 20px;
+}
+
+.zond-advertisement {
+    width: 728px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
